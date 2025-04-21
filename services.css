@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background: url(https://tuseteventos.com/wp-content/uploads/2024/06/taller-de-cocina-para-empresas.webp) no-repeat center center/cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header-title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navigation {
+    background: #81c784;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+}
+
+.navigation a.active {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+.navigation a:hover {
+    color: #333;
+}
+
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.content.services {
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    text-align: center;
+    color: #388e3c;
+    margin-bottom: 20px;
+}
+
+.service {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    color: #388e3c;
+    margin-top: 0;
+}
+
+.service p {
+    margin: 10px 0 0;
+}
+
+.back-to-home {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.back-to-home a {
+    font-size: 1.5em;
+    color: #007bff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-to-home a:hover {
+    background-color: #007bff;
+    color: white;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    margin-top: 30px;
+}

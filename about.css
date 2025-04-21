@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: url(https://www.doofinder.com/main-files/uploads/2019/04/Sobre-nosotros-Doofinder.jpg) no-repeat center center/cover;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 80px 0;
+    background-position: center;
+}
+
+.header-title h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header-title p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.about-content {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.about-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #555;
+}
+
+.about-content ul, .about-content ol {
+    margin-left: 30px;
+    font-size: 1.1em;
+    color: #444;
+}
+
+.about-content ul {
+    list-style-type: disc;
+}
+
+.about-content ol {
+    list-style-type: decimal;
+}
+
+.about-content h2 {
+    font-size: 2.2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.back-to-home {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.back-to-home a {
+    font-size: 1.5em;
+    color: #007bff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 123, 255, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.back-to-home a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+

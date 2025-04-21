@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GIF */
+body {
+    background-image: url('https://gifsanimados.de/img-gifsanimados.de/c/comida/comida-rapida.gif'); /* Ruta al archivo GIF */
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+}
+
+.video-background {
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    z-index: -1;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+    height: 100vh;            
+}
+
+/*caja de contacto */
+.contact-content {
+    background-color: white;    
+    padding: 30px;              
+    border-radius: 10px;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%;                
+    max-width: 600px;           
+}
+
+/* Títulos y textos dentro del formulario */
+.contact-content h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;  
+}
+
+.contact-form button {
+    padding: 12px;
+    font-size: 1.1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.back-to-home {
+margin-bottom: 100;
+}
+
+.back-to-home a {
+    font-size: 1.5em;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.back-to-home a:hover {
+    color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1em;
+}            
