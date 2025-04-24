@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mi Sitio Personal</title>
+    <link>https://tusitio.com</link>
+    <description>Últimas publicaciones de mi sitio web personal.</description>
+
+    <item>
+      <title>Nuevo proyecto de diseño web</title>
+      <link>https://tusitio.com/blog/proyecto-diseno</link>
+      <description>Publicación sobre mi más reciente proyecto de diseño web.</description>
+    </item>
+
+    <!-- Puedes añadir más <item> aquí -->
+  </channel>
+</rss>
