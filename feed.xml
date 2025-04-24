@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Mi Sitio Personal</title>
-    <link>https://tusitio.com</link>
-    <description>Últimas publicaciones de mi sitio web personal.</description>
+    <title>Recetas Vivas - Página Web</title>
+    <link>https://recetasvivas.netlify.app/</link>
+    <description>Acceso directo al todas las páginas.</description>
+    <language>es</language>
+    <managingEditor>gdp0005@alu.medac.es</managingEditor>
 
     <item>
-      <title>Nuevo proyecto de diseño web</title>
-      <link>https://tusitio.com/blog/proyecto-diseno</link>
-      <description>Publicación sobre mi más reciente proyecto de diseño web.</description>
+      <title>Página principal</title>
+      <link>https://recetasvivas.netlify.app/gallery</link>
+      <description>Página principal de la Web. Tiene la información relevante de la web.</description>
     </item>
 
-    <!-- Puedes añadir más <item> aquí -->
+    <item>
+      <title>Sobre nosotros</title>
+      <link>https://recetasvivas.netlify.app/about</link>
+      <description>El objetivo de la Web y toda su trayectoria. También incluye información sobre la comunidad.</description>
+    </item>
+
+    <item>
+      <title>Contacto</title>
+      <link>https://recetasvivas.netlify.app/contact</link>
+      <description>Toda la información sobre el contacto.</description>
+    </item>
+
+
+    <item>
+      <title>Servicios</title>
+      <link>https://recetasvivas.netlify.app/services</link>
+      <description>Descubre los servicios que ofrecemos.</description>
+    </item>
   </channel>
 </rss>
